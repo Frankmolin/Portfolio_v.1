@@ -4,7 +4,7 @@ import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
-import SideBar from './components/SideBar'
+
 
 function App() {
 
