@@ -1,4 +1,3 @@
-import { FC } from "react"
 
 const Maleta = (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
     <svg

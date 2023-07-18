@@ -1,4 +1,3 @@
-import  { FC } from 'react'
 
 export default function Star(props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) {
   return (

@@ -1,4 +1,4 @@
-import { FC } from "react"
+
 
 const Correo = (props:JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
     <svg
