@@ -3,7 +3,7 @@ import getRandomPastelColor from "../utils/randColor";
 
 export default function Skills() {
   const skillsData = [
-    { name: 'HTML', level: 'Avanzado' },
+    { name: 'HTML', level: 'Intermedio' },
     { name: 'CSS', level: 'Intermedio' },
     { name: 'JavaScript', level: 'Avanzado' },
     { name: 'React', level: 'Intermedio' },
@@ -13,6 +13,7 @@ export default function Skills() {
     { name: 'Java', level: 'Básico' },
     { name: 'Tailwind', level: 'Intermedio' },
     { name: 'Bootstrap', level: 'Básico' },
+    { name: 'Git', level: 'Básico' }
   ];
   
 
