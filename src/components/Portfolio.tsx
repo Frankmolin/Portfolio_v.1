@@ -38,6 +38,7 @@ const GitHubProjects: React.FC = () => {
       <h1 className="text-3xl font-bold mb-4 text-dark dark:text-light">Mis Proyectos en GitHub</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-4">
         {projects.map((project) => {
+      if(!project.name=="Frankmolin"){
           const randCol=getRandomPastelColor()
           return (
             <div key={project.id} className="p-4 bg-white rounded shadow dark:bg-secondary">
@@ -67,7 +68,7 @@ const GitHubProjects: React.FC = () => {
                 </a>
               </div>
             </div>
-          )
+          )}
         })}
       </div>
     </div>
